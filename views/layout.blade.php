@@ -5,10 +5,10 @@
     <title>Top NHL Players grouped by position and year</title>
     <meta name="description" content="Top NHL Players grouped by position (forwards, defenseman and goalies) and year.">
     <meta name="author" content="Lygue">
-    <meta name="keywords" content="hockey,players,top,nhl,lnh">
-    <meta property="og:site_name" content="Top Hockey Players">
-    <meta property="og:title" content="Top Hockey Players">
-    <meta property="og:description" content="Top NHL Players grouped by position (forwards, defenseman and goalies) and year.">
+    <meta name="keywords" content="hockey,players,top,nhl,lnh,crosby,price,ovechkin">
+    <meta property="og:site_name" content="Top NHL Players">
+    <meta property="og:title" content="Top NHL Players">
+    <meta property="og:description" content="Top NHL players grouped by position (forwards, defenseman and goalies) and year.">
     <meta property="article:author" content="https://www.facebook.com/Lygue">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.topnhlplayers.com">
