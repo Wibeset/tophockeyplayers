@@ -1,5 +1,5 @@
-# Top Hockey Players
+# Top NHL Players
 
-Top Hockey Players grouped by position and year. Designed & developed by [Lygue](http://www.lygue.com). Inspired by [The Movie Project](http://kumailht.com/the-movie-project/).
+A collection of top NHL players grouped by position and year. Designed & developed by [Lygue](http://www.lygue.com). Statistics & pictures by [NHL.com](http://www.nhl.com).
 
-[Top Hockey Players](http://www.tophockeyplayers.com)
+http://www.topnhlplayers.com
