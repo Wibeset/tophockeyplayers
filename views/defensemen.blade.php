@@ -2,8 +2,10 @@
 
 @section('og')
 
-    <meta property="og:title" content="Defensemen">
+    <meta property="og:title" content="Top NHL players - Defensemen">
+    <meta property="og:description" content="Top 10 NHL defensemen grouped by year.">
     <meta property="og:url" content="http://www.topnhldefensemen.com">
+    <meta property="og:image" content="http://www.topnhlplayers.com/assets/img/og/defensemen.jpg">
 
 @endsection
 

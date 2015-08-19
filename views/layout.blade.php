@@ -8,7 +8,6 @@
     <meta name="keywords" content="hockey,players,top,nhl,lnh,crosby,price,ovechkin">
     <meta property="og:site_name" content="Top NHL Players">
     @yield('og')
-    <meta property="og:description" content="Top NHL players grouped by position (forwards, defenseman and goalies) and year.">
     <meta property="article:author" content="https://www.facebook.com/Lygue">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="en_US">

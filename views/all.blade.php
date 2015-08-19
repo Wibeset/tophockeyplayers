@@ -2,9 +2,10 @@
 
 @section('og')
 
-    <meta property="og:title" content="All skaters">
-    <meta property="og:description" content="Top NHL players grouped by position (forwards, defenseman and goalies) and year.">
+    <meta property="og:title" content="Top NHL players - All skaters">
+    <meta property="og:description" content="Top 10 NHL players (forwards, defenseman and goalies) grouped by year.">
     <meta property="og:url" content="http://www.topnhlplayers.com">
+    <meta property="og:image" content="http://www.topnhlplayers.com/assets/img/og/forwards.jpg">
 
 @endsection
 
