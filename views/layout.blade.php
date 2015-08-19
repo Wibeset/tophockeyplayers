@@ -17,7 +17,7 @@
     <![endif]-->
     <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" media="all" href="{!! $assets !!}css/styles.css">
+    <link rel="stylesheet" media="all" href="{!! $assets !!}css/styles.css?v={!! $version !!}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -49,7 +49,7 @@
     </footer>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-    <script type="text/javascript" src="{!! $assets !!}js/main.js"></script>
+    <script type="text/javascript" src="{!! $assets !!}js/main.js?v={!! $version !!}"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
