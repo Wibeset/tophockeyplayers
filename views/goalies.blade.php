@@ -4,7 +4,7 @@
 
     <meta property="og:title" content="Top NHL players - Goalies">
     <meta property="og:description" content="Top 10 NHL goaloes grouped by year.">
-    <meta property="og:url" content="http://www.topnhlgoalies.com">
+    <meta property="og:url" content="http://www.topnhlplayers.com/goalies">
     <meta property="og:image" content="http://www.topnhlplayers.com/assets/img/og/goalies.jpg">
 
 @endsection
