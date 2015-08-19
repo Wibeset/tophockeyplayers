@@ -18,12 +18,19 @@ $blade->view()->share([
     'assets'  => 'assets/'
 ]);
 
-$html = $blade->view()->make('index', [
-    'players' => include $dir['config'] . '/players.php',
-    'all' => include $dir['config'] . '/all.php',
-    'forwards' => include $dir['config'] . '/forwards.php',
-    'defensemen' => include $dir['config'] . '/defensemen.php',
-    'goalies' => include $dir['config'] . '/goalies.php'
-]);
+foreach (['all', 'forwards', 'defensemen', 'goalies'] as $position) {
 
-file_put_contents($dir['dist'] . '/index.html', $html);
+    $blade->view()->share([
+        'position' => $position
+    ]);
+
+    $html = $blade->view()->make($position, [
+        'players'       => include $dir['config'] . '/players.php',
+        'statistics'    => include $dir['config'] . '/' . $position . '.php',
+    ]);
+
+    file_put_contents(
+        $dir['dist'] . '/' . ($position == 'all' ? 'index' : $position) . '.html',
+        $html
+    );
+}
