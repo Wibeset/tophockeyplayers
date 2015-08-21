@@ -40,6 +40,12 @@ body {
   @media only screen and (max-width: 768px) {
     body {
       padding: 15px; } }
+  body > header > div {
+    float: right;
+    display: none; }
+    @media only screen and (min-width: 1024px) {
+      body > header > div {
+        display: block; } }
   body > header h1, body > footer h1 {
     margin-bottom: 10px; }
     @media only screen and (max-width: 768px) {
