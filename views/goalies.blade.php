@@ -9,6 +9,12 @@
 
 @endsection
 
+@section('share')
+
+    <div class="fb-share-button" data-href="http://www.topnhlplayers.com/goalies" data-layout="box_count"></div>
+
+@endsection
+
 @section('content')
 
     <div>

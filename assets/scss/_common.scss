@@ -61,6 +61,18 @@ body {
         padding: 15px;
     }
 
+    > header {
+
+        > div {
+            float: right;
+            display: none;
+
+            @media only screen and (min-width: $medium-screen) {
+                display: block;
+            }
+        }
+    }
+
     > header, > footer {
 
         h1 {
