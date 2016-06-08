@@ -358,5 +358,25 @@ return [
         'id' => '8470320',
         'name' => 'C. Ward'
     ],
+    [
+        'id' => '8466138',
+        'name' => 'J. Thornton'
+    ],
+    [
+        'id' => '8476346',
+        'name' => 'J. Gaudreau'
+    ],
+    [
+        'id' => '8471218',
+        'name' => 'B. Wheeler'
+    ],
+    [
+        'id' => '8475744',
+        'name' => 'E. Kuznetsov'
+    ],
+    [
+        'id' => '8478550',
+        'name' => 'A. Panarin'
+    ]
 
 ];
