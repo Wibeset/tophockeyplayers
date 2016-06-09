@@ -17,6 +17,17 @@ var TopNHLPlayers = (function () {
                 _trackEvent('Players', 'Select', $(this).data('id'));
                 return false;
             });
+
+            var queries = {};
+            if (document.location.search.length > 0) {
+                $.each(document.location.search.substr(1).split('&'), function(c, q) {
+                    var i = q.split('=');
+                    queries[i[0].toString()] = i[1].toString();
+                });
+                if (queries.id) {
+                    $('[data-id="' + queries.id + '"]').trigger("click");
+                }
+            }
         });
     };
 

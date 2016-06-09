@@ -2,12 +2,13 @@
 var gulp       = require('gulp');
 var gutil      = require('gulp-util');
 var concat     = require('gulp-concat');
-var sass       = require('gulp-sass');
+var notify     = require('gulp-notify');
+var sass       = require('gulp-ruby-sass');
 var autoprefix = require('gulp-autoprefixer');
 var minifyCSS  = require('gulp-minify-css');
+var uglify     = require('gulp-uglify');
 var exec       = require('child_process').exec;
 var sys        = require('sys');
-var uglify     = require('gulp-uglify');
 
 // Where do you store your Sass files?
 var sassDir = 'assets/scss';
@@ -17,6 +18,7 @@ var jsDir = 'assets/js';
 var targetCSSDir = 'dist/assets/css';
 var targetJsDir = 'dist/assets/js';
 
+// CSS: Default
 gulp.task('css', function () {
     return gulp.src(sassDir + '/styles.scss')
         .pipe(sass({ style: 'compressed' }).on('error', gutil.log))
@@ -24,6 +26,7 @@ gulp.task('css', function () {
         .pipe(gulp.dest(targetCSSDir))
 });
 
+// Js: default
 gulp.task('js', function() {
     return gulp.src([jsDir + '/main.js'])
         .pipe(concat('main.js'))
